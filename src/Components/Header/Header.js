@@ -8,7 +8,7 @@ class Header extends React.Component{
                 <div className={classes.mainHeader}>
                     <div className={classes.container}>
                         <div className={classes.siteTitle}>
-                            <img src="https://img.icons8.com/dusk/64/000000/cash-in-hand.png"/>
+                            <img alt="icon" src="https://img.icons8.com/dusk/64/000000/cash-in-hand.png"/>
                             <h1>Currency exchange by Rostyslav</h1>
                         </div>
                     </div>

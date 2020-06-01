@@ -1,0 +1,202 @@
+.calculator{
+
+}
+
+.block{
+  position: relative;
+  padding: 20px 15px 20px 20px;
+  border: 1px solid #959595;
+  border-radius: 20px;
+  background: url("https://365psd.ru/images/backgrounds/bg-dark-4811.png");
+  margin: 20px;
+
+  div{
+    margin-bottom: 20px;
+  }
+}
+
+.calcRes{
+  color: #f69a73;
+  font-size: 30px;
+  font-weight: bold;
+  li{
+    margin: 10px 0;
+  }
+}
+
+.iWant{
+  color: #f69a73;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+//Form-----------------------------------------------------
+
+input,
+textarea, select {
+  outline:none;
+}
+
+* {box-sizing: border-box;}
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: darkgray;
+  border-radius: 30px;
+}
+.formLeftDecoration,
+.formRightDecoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #848484;
+  border-radius: 20px;
+}
+.formLeftDecoration {
+  bottom: 60px;
+  left: -30px;
+}
+.formRightDecoration {
+  top: 60px;
+  right: -30px;
+}
+.formLeftDecoration:before,
+.formLeftDecoration:after,
+.formLeftDecoration:before,
+.formLeftDecoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: #a1a1a1;
+}
+.formLeftDecoration:before {top: -20px;}
+.formLeftDecoration:after {
+  top: 20px;
+  left: 10px;
+}
+.formRightDecoration:before {
+  top: -20px;
+  right: 0;
+}
+.formRightDecoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #444440;
+}
+.formInner {padding: 50px;}
+.formInner input,
+.formInner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #bababa;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.formInner input[type="submit"] {
+  margin-top: 85px;
+  margin-bottom: -35px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+}
+.formInner textarea {resize: none;}
+.formInner h3 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+
+//Options--------------------------------------
+.optionS{
+  text-align: center;
+}
+
+.big {
+  font-size: 1em;
+}
+
+.customDropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.customDropdown select {
+  cursor:pointer;
+  background-color: #f69a73;
+  color: white;
+  font-size: inherit;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.customDropdown::before,
+.customDropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.customDropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.customDropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.customDropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.customDropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.customDropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+//.customDropdown::after {
+//  color: rgba(0,0,0,.4);
+//}
+
+select::-ms-expand {
+  display: none;
+}

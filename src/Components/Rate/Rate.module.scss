@@ -1,0 +1,49 @@
+footer, header, menu, nav, section{
+  display: block;
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+.block{
+  position: relative;
+  padding: 20px 15px 20px 20px;
+  border: 1px solid #959595;
+  border-radius: 20px;
+  background: url("https://365psd.ru/images/backgrounds/bg-dark-4811.png");
+  margin: 20px;
+}
+
+.flexItem{
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  color: darkgray;
+}
+
+.block .currencyIn, .block .currencyOut{
+  font-size: 1.3rem;
+  text-align:right;
+}
+
+.currencyName{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.rate{
+
+}
+
+h3{
+  color: #f69a73;
+}
+
+
+

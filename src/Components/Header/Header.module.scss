@@ -1,0 +1,29 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainHeader{
+  padding: 10px 0 25px;
+  background: url("https://365psd.ru/images/backgrounds/bg-dark-4784.jpg");
+  margin-bottom: -16px;
+  height: 100px;
+}
+
+.siteTitle{
+  color: black;
+  position: relative;
+  margin-top: 30px;
+  img{
+    position: absolute;
+    margin: -15px 10px;
+    color: darkgray
+  }
+  h1{
+    display: inline;
+    color: #f69a73;
+    margin-left: 100px;
+  }
+}
+
+

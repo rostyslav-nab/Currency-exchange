@@ -1,0 +1,66 @@
+footer, header, menu, nav, section{
+  display: block;
+}
+body{
+  line-height: 1;
+  font-size: 16px;
+  background: url("https://365psd.ru/images/backgrounds/bg-dark-4809.png");
+  color: #666;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main, .siteContent{
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .88);
+  padding: 30px 20px;
+}
+
+.block{
+  position: relative;
+  padding: 20px 15px 20px 20px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.block div{
+  margin-bottom: 20px;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+
+.flex-item{
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+.btn{
+  background: darkgray;
+  margin-left: 20px;
+  &:active, &:focus{
+    outline: none;
+  }
+}
+
+.well{
+  color: darkgray;
+}
+
+

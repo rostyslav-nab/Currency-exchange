@@ -1,0 +1,27 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerNav{
+  background: url("https://365psd.ru/images/backgrounds/bg-dark-4784.jpg");
+
+  li{
+    display: inline-block;
+    padding: 15px 25px 15px;
+    border-radius: 20px;
+    &:hover{
+      transition: 1s;
+      background: #414141;
+      cursor: pointer;
+    }
+
+    a{
+      text-decoration: none;
+      color: darkgray;
+    }
+  }
+
+
+}
+
